@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\bassa\eclipse-workspace\Maven-TestNGPractice\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 2 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.HomePageTest" class="method navigator-link" hash-for-method="UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg">UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.SignInPageTest" class="method navigator-link" hash-for-method="VerifyUserLogin">VerifyUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.ArrayPageTest" class="method navigator-link" hash-for-method="ArrayPageValidationTest(dsalgoproject81, Project321@)">ArrayPageValidationTest(dsalgoproject81, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.RegisterPageTest" class="method navigator-link" hash-for-method="ClickRegisterBtnWithDifferentPasswordsTest(dsalgoproject81, Project321@, Project321@)">ClickRegisterBtnWithDifferentPasswordsTest(dsalgoproject81, Project321@, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.RegisterPageTest" class="method navigator-link" hash-for-method="ClickRegisterBtnWithEmptyFieldsTest">ClickRegisterBtnWithEmptyFieldsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.SignInPageTest" class="method navigator-link" hash-for-method="ClickRegisterLnkSignInPageValidationTest">ClickRegisterLnkSignInPageValidationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.SignInPageTest" class="method navigator-link" hash-for-method="ClickSignoutLnkValidationTest(dsalgoproject81, Project321@)">ClickSignoutLnkValidationTest(dsalgoproject81, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.DataStructurePageTest" class="method navigator-link" hash-for-method="DataStructureValidationTest(dsalgoproject81, Project321@)">DataStructureValidationTest(dsalgoproject81, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.GraphPageTest" class="method navigator-link" hash-for-method="GraphPageValidationTest(dsalgoproject81, Project321@)">GraphPageValidationTest(dsalgoproject81, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.SignInPageTest" class="method navigator-link" hash-for-method="LoginUserWithInvalidCredentialsValidationTest(dsalgoproject81, Project321@)">LoginUserWithInvalidCredentialsValidationTest(dsalgoproject81, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.SignInPageTest" class="method navigator-link" hash-for-method="LoginUserwithValidCredentialsValidationTest(dsalgoproject81, Project321@)">LoginUserwithValidCredentialsValidationTest(dsalgoproject81, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.RegisterPageTest" class="method navigator-link" hash-for-method="RegisterErrorEmptyfieldBelowPasswordTxtbox(dsalgoproject81, Project321@, Project321@)">RegisterErrorEmptyfieldBelowPasswordTxtbox(dsalgoproject81, Project321@, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.RegisterPageTest" class="method navigator-link" hash-for-method="RegisterNewUserTest(dsalgoproject81, Project321@, Project321@)">RegisterNewUserTest(dsalgoproject81, Project321@, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.TreePageTest" class="method navigator-link" hash-for-method="TreePageValidationTest(dsalgoproject81, Project321@)">TreePageValidationTest(dsalgoproject81, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.HomePageTest" class="method navigator-link" hash-for-method="UserClicksGetStartedBtnWithoutLoginGetErrorMsg">UserClicksGetStartedBtnWithoutLoginGetErrorMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.HomePageTest" class="method navigator-link" hash-for-method="ValidateUserLandedLoginPageClickingLoginBtn">ValidateUserLandedLoginPageClickingLoginBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.HomePageTest" class="method navigator-link" hash-for-method="ValidateUserLandedRegisterPageClickingRegisterBtn">ValidateUserLandedRegisterPageClickingRegisterBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.HomePageTest" class="method navigator-link" hash-for-method="VerifyUserLandedHomePageTest">VerifyUserLandedHomePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.LinkedListPageTest" class="method navigator-link" hash-for-method="VerifyUserLandedLinkedListPage(dsalgoproject81, Project321@)">VerifyUserLandedLinkedListPage(dsalgoproject81, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.QueuePageTest" class="method navigator-link" hash-for-method="VerifyUserLandedPage(dsalgoproject81, Project321@)">VerifyUserLandedPage(dsalgoproject81, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.RegisterPageTest" class="method navigator-link" hash-for-method="VerifyUserLandedRegisterPageTest">VerifyUserLandedRegisterPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.StackPageTest" class="method navigator-link" hash-for-method="VerifyUserLandedStackPage(dsalgoproject81, Project321@)">VerifyUserLandedStackPage(dsalgoproject81, Project321@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.GetStartedTest" class="method navigator-link" hash-for-method="getStartedButtonClickTest">getStartedButtonClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.dsalgo.qa.testcase.GetStartedTest" class="method navigator-link" hash-for-method="validateUserLandingHomePageTest">validateUserLandingHomePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.SignInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserLogin">
+                  </a> <!-- VerifyUserLogin -->
+                  <span class="method-name">VerifyUserLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/logins] but found [https://dsportalapp.herokuapp.com/login]
+	at com.dsalgo.qa.testcase.SignInPageTest.VerifyUserLogin(SignInPageTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verifying SignIn Page Link test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg">
+                  </a> <!-- UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg -->
+                  <span class="method-name">UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=112.0.5615.86)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ebcca0ec749d916c822ebcda92c0236, clickElement {id=fb14e3b4-454c-41c4-bb4e-9a64e5785402}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.86, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\bassa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53713/devtoo..., se:cdpVersion: 112.0.5615.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5ebcca0ec749d916c822ebcda92c0236)] -&gt; xpath: //a[@class=&apos;dropdown-item&apos; and @href=&apos;/array&apos;]]
+Session ID: 5ebcca0ec749d916c822ebcda92c0236
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy35.click(Unknown Source)
+	at com.dsalgo.qa.pages.HomePage.selectValueFromdropdown(HomePage.java:162)
+	at com.dsalgo.qa.testcase.HomePageTest.UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg(HomePageTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify user got Error message on clicking GetStarted button after selecting value from dropdown without Login )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.LinkedListPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserLandedLinkedListPage(dsalgoproject81, Project321@)">
+                  </a> <!-- VerifyUserLandedLinkedListPage(dsalgoproject81, Project321@) -->
+                  <span class="method-name">VerifyUserLandedLinkedListPage</span>
+                  <span class="parameters">(dsalgoproject81, Project321@)</span>
+                  <em>
+(Linked list page verification)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.ArrayPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ArrayPageValidationTest(dsalgoproject81, Project321@)">
+                  </a> <!-- ArrayPageValidationTest(dsalgoproject81, Project321@) -->
+                  <span class="method-name">ArrayPageValidationTest</span>
+                  <span class="parameters">(dsalgoproject81, Project321@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.QueuePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserLandedPage(dsalgoproject81, Project321@)">
+                  </a> <!-- VerifyUserLandedPage(dsalgoproject81, Project321@) -->
+                  <span class="method-name">VerifyUserLandedPage</span>
+                  <span class="parameters">(dsalgoproject81, Project321@)</span>
+                  <em>
+(Queue page verification)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.GraphPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GraphPageValidationTest(dsalgoproject81, Project321@)">
+                  </a> <!-- GraphPageValidationTest(dsalgoproject81, Project321@) -->
+                  <span class="method-name">GraphPageValidationTest</span>
+                  <span class="parameters">(dsalgoproject81, Project321@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickRegisterBtnWithDifferentPasswordsTest(dsalgoproject81, Project321@, Project321@)">
+                  </a> <!-- ClickRegisterBtnWithDifferentPasswordsTest(dsalgoproject81, Project321@, Project321@) -->
+                  <span class="method-name">ClickRegisterBtnWithDifferentPasswordsTest</span>
+                  <span class="parameters">(dsalgoproject81, Project321@, Project321@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickRegisterBtnWithEmptyFieldsTest">
+                  </a> <!-- ClickRegisterBtnWithEmptyFieldsTest -->
+                  <span class="method-name">ClickRegisterBtnWithEmptyFieldsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterErrorEmptyfieldBelowPasswordTxtbox(dsalgoproject81, Project321@, Project321@)">
+                  </a> <!-- RegisterErrorEmptyfieldBelowPasswordTxtbox(dsalgoproject81, Project321@, Project321@) -->
+                  <span class="method-name">RegisterErrorEmptyfieldBelowPasswordTxtbox</span>
+                  <span class="parameters">(dsalgoproject81, Project321@, Project321@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterNewUserTest(dsalgoproject81, Project321@, Project321@)">
+                  </a> <!-- RegisterNewUserTest(dsalgoproject81, Project321@, Project321@) -->
+                  <span class="method-name">RegisterNewUserTest</span>
+                  <span class="parameters">(dsalgoproject81, Project321@, Project321@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserLandedRegisterPageTest">
+                  </a> <!-- VerifyUserLandedRegisterPageTest -->
+                  <span class="method-name">VerifyUserLandedRegisterPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.SignInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickRegisterLnkSignInPageValidationTest">
+                  </a> <!-- ClickRegisterLnkSignInPageValidationTest -->
+                  <span class="method-name">ClickRegisterLnkSignInPageValidationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickSignoutLnkValidationTest(dsalgoproject81, Project321@)">
+                  </a> <!-- ClickSignoutLnkValidationTest(dsalgoproject81, Project321@) -->
+                  <span class="method-name">ClickSignoutLnkValidationTest</span>
+                  <span class="parameters">(dsalgoproject81, Project321@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginUserWithInvalidCredentialsValidationTest(dsalgoproject81, Project321@)">
+                  </a> <!-- LoginUserWithInvalidCredentialsValidationTest(dsalgoproject81, Project321@) -->
+                  <span class="method-name">LoginUserWithInvalidCredentialsValidationTest</span>
+                  <span class="parameters">(dsalgoproject81, Project321@)</span>
+                  <em>
+(Verifying User fails to login on entering invalid username,password and clicking on Login button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginUserwithValidCredentialsValidationTest(dsalgoproject81, Project321@)">
+                  </a> <!-- LoginUserwithValidCredentialsValidationTest(dsalgoproject81, Project321@) -->
+                  <span class="method-name">LoginUserwithValidCredentialsValidationTest</span>
+                  <span class="parameters">(dsalgoproject81, Project321@)</span>
+                  <em>
+(Verifying user is able to login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.TreePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TreePageValidationTest(dsalgoproject81, Project321@)">
+                  </a> <!-- TreePageValidationTest(dsalgoproject81, Project321@) -->
+                  <span class="method-name">TreePageValidationTest</span>
+                  <span class="parameters">(dsalgoproject81, Project321@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.DataStructurePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DataStructureValidationTest(dsalgoproject81, Project321@)">
+                  </a> <!-- DataStructureValidationTest(dsalgoproject81, Project321@) -->
+                  <span class="method-name">DataStructureValidationTest</span>
+                  <span class="parameters">(dsalgoproject81, Project321@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.GetStartedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getStartedButtonClickTest">
+                  </a> <!-- getStartedButtonClickTest -->
+                  <span class="method-name">getStartedButtonClickTest</span>
+                  <em>
+(Clicking on Get Started button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserLandingHomePageTest">
+                  </a> <!-- validateUserLandingHomePageTest -->
+                  <span class="method-name">validateUserLandingHomePageTest</span>
+                  <em>
+(Verify user landed on Home Page after clicking Get Started button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserClicksGetStartedBtnWithoutLoginGetErrorMsg">
+                  </a> <!-- UserClicksGetStartedBtnWithoutLoginGetErrorMsg -->
+                  <span class="method-name">UserClicksGetStartedBtnWithoutLoginGetErrorMsg</span>
+                  <em>
+(Verify user got Error message on clicking GetStarted button under any Data Structure without Login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateUserLandedLoginPageClickingLoginBtn">
+                  </a> <!-- ValidateUserLandedLoginPageClickingLoginBtn -->
+                  <span class="method-name">ValidateUserLandedLoginPageClickingLoginBtn</span>
+                  <em>
+(Clicking on Login link on Home Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateUserLandedRegisterPageClickingRegisterBtn">
+                  </a> <!-- ValidateUserLandedRegisterPageClickingRegisterBtn -->
+                  <span class="method-name">ValidateUserLandedRegisterPageClickingRegisterBtn</span>
+                  <em>
+(Clicking on Register Link on Home Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserLandedHomePageTest">
+                  </a> <!-- VerifyUserLandedHomePageTest -->
+                  <span class="method-name">VerifyUserLandedHomePageTest</span>
+                  <em>
+(Verifying user landed on home page after clicking on Get Started button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsalgo.qa.testcase.StackPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserLandedStackPage(dsalgoproject81, Project321@)">
+                  </a> <!-- VerifyUserLandedStackPage(dsalgoproject81, Project321@) -->
+                  <span class="method-name">VerifyUserLandedStackPage</span>
+                  <span class="parameters">(dsalgoproject81, Project321@)</span>
+                  <em>
+(Stack page verification)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bassa\eclipse-workspace\Maven-TestNGPractice\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;allureReports.AllureListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.SignInPageTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.ArrayPageTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.RegisterPageTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.DataStructurePageTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.GetStartedTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.TreePageTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.GraphPageTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.LinkedListPageTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.QueuePageTest&quot;/&gt;
+      &lt;class name=&quot;com.dsalgo.qa.testcase.StackPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg')
+data.setCell(0, 2, 'com.dsalgo.qa.testcase.HomePageTest')
+data.setCell(0, 3, 10044);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ArrayPageValidationTest')
+data.setCell(1, 2, 'com.dsalgo.qa.testcase.ArrayPageTest')
+data.setCell(1, 3, 2915);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TreePageValidationTest')
+data.setCell(2, 2, 'com.dsalgo.qa.testcase.TreePageTest')
+data.setCell(2, 3, 2911);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyUserLandedLinkedListPage')
+data.setCell(3, 2, 'com.dsalgo.qa.testcase.LinkedListPageTest')
+data.setCell(3, 3, 2843);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyUserLandedStackPage')
+data.setCell(4, 2, 'com.dsalgo.qa.testcase.StackPageTest')
+data.setCell(4, 3, 2700);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyUserLandedPage')
+data.setCell(5, 2, 'com.dsalgo.qa.testcase.QueuePageTest')
+data.setCell(5, 3, 2658);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'GraphPageValidationTest')
+data.setCell(6, 2, 'com.dsalgo.qa.testcase.GraphPageTest')
+data.setCell(6, 3, 2634);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DataStructureValidationTest')
+data.setCell(7, 2, 'com.dsalgo.qa.testcase.DataStructurePageTest')
+data.setCell(7, 3, 1741);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ClickSignoutLnkValidationTest')
+data.setCell(8, 2, 'com.dsalgo.qa.testcase.SignInPageTest')
+data.setCell(8, 3, 556);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LoginUserwithValidCredentialsValidationTest')
+data.setCell(9, 2, 'com.dsalgo.qa.testcase.SignInPageTest')
+data.setCell(9, 3, 497);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'RegisterNewUserTest')
+data.setCell(10, 2, 'com.dsalgo.qa.testcase.RegisterPageTest')
+data.setCell(10, 3, 497);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ClickRegisterBtnWithDifferentPasswordsTest')
+data.setCell(11, 2, 'com.dsalgo.qa.testcase.RegisterPageTest')
+data.setCell(11, 3, 396);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'LoginUserWithInvalidCredentialsValidationTest')
+data.setCell(12, 2, 'com.dsalgo.qa.testcase.SignInPageTest')
+data.setCell(12, 3, 336);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getStartedButtonClickTest')
+data.setCell(13, 2, 'com.dsalgo.qa.testcase.GetStartedTest')
+data.setCell(13, 3, 250);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ClickRegisterLnkSignInPageValidationTest')
+data.setCell(14, 2, 'com.dsalgo.qa.testcase.SignInPageTest')
+data.setCell(14, 3, 182);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'UserClicksGetStartedBtnWithoutLoginGetErrorMsg')
+data.setCell(15, 2, 'com.dsalgo.qa.testcase.HomePageTest')
+data.setCell(15, 3, 178);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'RegisterErrorEmptyfieldBelowPasswordTxtbox')
+data.setCell(16, 2, 'com.dsalgo.qa.testcase.RegisterPageTest')
+data.setCell(16, 3, 173);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ValidateUserLandedRegisterPageClickingRegisterBtn')
+data.setCell(17, 2, 'com.dsalgo.qa.testcase.HomePageTest')
+data.setCell(17, 3, 122);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ValidateUserLandedLoginPageClickingLoginBtn')
+data.setCell(18, 2, 'com.dsalgo.qa.testcase.HomePageTest')
+data.setCell(18, 3, 121);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ClickRegisterBtnWithEmptyFieldsTest')
+data.setCell(19, 2, 'com.dsalgo.qa.testcase.RegisterPageTest')
+data.setCell(19, 3, 71);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateUserLandingHomePageTest')
+data.setCell(20, 2, 'com.dsalgo.qa.testcase.GetStartedTest')
+data.setCell(20, 3, 12);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'VerifyUserLogin')
+data.setCell(21, 2, 'com.dsalgo.qa.testcase.SignInPageTest')
+data.setCell(21, 3, 10);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VerifyUserLandedRegisterPageTest')
+data.setCell(22, 2, 'com.dsalgo.qa.testcase.RegisterPageTest')
+data.setCell(22, 3, 7);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'VerifyUserLandedHomePageTest')
+data.setCell(23, 2, 'com.dsalgo.qa.testcase.HomePageTest')
+data.setCell(23, 3, 6);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickRegisterLnkSignInPageValidationTest</span>
+                <span class="method-start">4643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4839 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickSignoutLnkValidationTest(dsalgoproject81, Project321@)</span>
+                <span class="method-start">7476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">8273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginUserwithValidCredentialsValidationTest(dsalgoproject81, Project321@)</span>
+                <span class="method-start">9614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10280 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyUserLogin</span>
+                <span class="method-start">11679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11939 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginUserWithInvalidCredentialsValidationTest(dsalgoproject81, Project321@)</span>
+                <span class="method-start">13513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13851 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.ArrayPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ArrayPageValidationTest(dsalgoproject81, Project321@)</span>
+                <span class="method-start">15431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18353 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">18577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickRegisterBtnWithDifferentPasswordsTest(dsalgoproject81, Project321@, Project321@)</span>
+                <span class="method-start">19905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20303 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickRegisterBtnWithEmptyFieldsTest</span>
+                <span class="method-start">21887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22193 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterErrorEmptyfieldBelowPasswordTxtbox(dsalgoproject81, Project321@, Project321@)</span>
+                <span class="method-start">23534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterNewUserTest(dsalgoproject81, Project321@, Project321@)</span>
+                <span class="method-start">25238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25737 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">25866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserLandedRegisterPageTest</span>
+                <span class="method-start">27147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27155 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.DataStructurePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DataStructureValidationTest(dsalgoproject81, Project321@)</span>
+                <span class="method-start">28657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30400 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.GetStartedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getStartedButtonClickTest</span>
+                <span class="method-start">31540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserLandingHomePageTest</span>
+                <span class="method-start">32902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32917 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">33093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserLandedHomePageTest</span>
+                <span class="method-start">34259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34270 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">34453 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateUserLandedLoginPageClickingLoginBtn</span>
+                <span class="method-start">35611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">35898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateUserLandedRegisterPageClickingRegisterBtn</span>
+                <span class="method-start">37090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UserClicksGetStartedBtnWithoutLoginGetErrorMsg</span>
+                <span class="method-start">38540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38720 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg</span>
+                <span class="method-start">39998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50173 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.TreePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TreePageValidationTest(dsalgoproject81, Project321@)</span>
+                <span class="method-start">51750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54663 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.GraphPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GraphPageValidationTest(dsalgoproject81, Project321@)</span>
+                <span class="method-start">56214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58851 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.LinkedListPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">59030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserLandedLinkedListPage(dsalgoproject81, Project321@)</span>
+                <span class="method-start">60348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">63193 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.QueuePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserLandedPage(dsalgoproject81, Project321@)</span>
+                <span class="method-start">64639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">67299 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsalgo.qa.testcase.StackPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">67458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserLandedStackPage(dsalgoproject81, Project321@)</span>
+                <span class="method-start">68822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">71526 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

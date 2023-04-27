@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DSAlgo Project Practice]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="verifyUserLoginSucess(failed)">
+    <parameter name="password" value="Project321@"/>
+    <parameter name="username" value="dsalgoproject81"/>
+    <classes>
+      <class name="com.dsalgo.qa.testcase.RegisterPageTest">
+        <methods>
+          <include name="verifyRegisterUserSucess"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.dsalgo.qa.testcase.RegisterPageTest -->
+      <class name="com.dsalgo.qa.testcase.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyHomePageLanded"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.dsalgo.qa.testcase.HomePageTest -->
+    </classes>
+  </test> <!-- verifyUserLoginSucess(failed) -->
+</suite> <!-- Failed suite [DSAlgo Project Practice] -->
