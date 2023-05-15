@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.dsalgo.qa.testcase.StackPageTest">
+      <class name="com.dsalgo.qa.testcase.ArrayPageTest">
         <methods>
-          <include name="teardown"/>
-          <include name="VerifyUserLandedStackPage" invocation-numbers="0"/>
-          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ArrayPageValidationTest"/>
         </methods>
-      </class> <!-- com.dsalgo.qa.testcase.StackPageTest -->
+      </class> <!-- com.dsalgo.qa.testcase.ArrayPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

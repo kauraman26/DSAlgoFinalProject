@@ -37,8 +37,7 @@ public class TestBase {
 		
 		try {
 			prop= new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\bassa\\eclipse-workspace\\DSAlgo\\src\\main\\java\\com\\DSAlgo"
-					+"\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\venka\\git\\DSAlgoFinalProject\\src\\main\\java\\com\\dsalgo\\qa\\config\\config.properties");
 			prop.load(ip);			
 		}
 		catch(FileNotFoundException e) {
