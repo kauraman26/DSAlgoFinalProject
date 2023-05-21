@@ -8,7 +8,6 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import com.dsalgo.qa.base.TestBase;
 import com.dsalgo.qa.util.testUtil;
-
 import io.qameta.allure.Attachment;
 
 public class AllureListener extends TestBase implements ITestListener  {

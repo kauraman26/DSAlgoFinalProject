@@ -4,16 +4,18 @@
 
  <listeners>
         <listener class-name="allureReports.AllureListener"/>
+        <listener class-name="ExtentReport.extentReportListener"></listener>
     </listeners>
+    
     
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.dsalgo.qa.testcase.SignInPageTest"/>
-      <class name="com.dsalgo.qa.testcase.ArrayPageTest"/>
-      <class name="com.dsalgo.qa.testcase.RegisterPageTest"/>
-      <class name="com.dsalgo.qa.testcase.DataStructurePageTest"/>
       <class name="com.dsalgo.qa.testcase.GetStartedTest"/>
       <class name="com.dsalgo.qa.testcase.HomePageTest"/>
+      <class name="com.dsalgo.qa.testcase.RegisterPageTest"/>
+      <class name="com.dsalgo.qa.testcase.SignInPageTest"/>
+      <class name="com.dsalgo.qa.testcase.DataStructurePageTest"/>
+      <class name="com.dsalgo.qa.testcase.ArrayPageTest"/>
       <class name="com.dsalgo.qa.testcase.TreePageTest"/>
       <class name="com.dsalgo.qa.testcase.GraphPageTest"/>
       <class name="com.dsalgo.qa.testcase.LinkedListPageTest"/>

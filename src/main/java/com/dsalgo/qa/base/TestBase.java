@@ -55,12 +55,13 @@ public static WebDriver initilization() {
 	
 	String browserName=prop.getProperty("browser");
 	
-	if (browserName.equalsIgnoreCase("chrome")) 
+	if (browserName.equalsIgnoreCase("chrome"))  
 	{
 		WebDriverManager.chromedriver().setup();
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--remote-allow-origins=*");
-		driver = new ChromeDriver(options);
+		//ChromeOptions options = new ChromeOptions();
+		//options.addArguments("--remote-allow-origins=*");
+		//driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
 		tdriver.set(driver);
 	}
 	
