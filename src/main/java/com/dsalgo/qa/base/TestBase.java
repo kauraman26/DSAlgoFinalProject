@@ -57,10 +57,10 @@ public static WebDriver initilization() {
 	if (browserName.equalsIgnoreCase("chrome")) 
 	{
 		WebDriverManager.chromedriver().setup();
-		/*ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
-		driver = new ChromeDriver(options);*/
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(options);
+		//driver = new ChromeDriver();
 
 		tdriver.set(driver);
 	}
