@@ -1,29 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="24" passed="22" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-04T17:04:57 PDT" name="Suite" finished-at="2023-05-04T17:08:33 PDT" duration-ms="215211">
+  <suite started-at="2023-06-11T16:42:07 PDT" name="Suite" finished-at="2023-06-11T16:53:47 PDT" duration-ms="700055">
     <groups>
     </groups>
-    <test started-at="2023-05-04T17:04:57 PDT" name="Test" finished-at="2023-05-04T17:08:33 PDT" duration-ms="215211">
-      <class name="com.dsalgo.qa.testcase.SignInPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:05:00 PDT" name="setup" finished-at="2023-05-04T17:06:24 PDT" duration-ms="84078" status="PASS">
+    <test started-at="2023-06-11T16:42:07 PDT" name="Test" finished-at="2023-06-11T16:53:47 PDT" duration-ms="700055">
+      <class name="com.dsalgo.qa.testcase.StackPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.StackPageTest@292158f8]" started-at="2023-06-11T16:53:13 PDT" name="setup" finished-at="2023-06-11T16:53:30 PDT" duration-ms="16598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ClickRegisterLnkSignInPageValidationTest()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:06:26 PDT" name="ClickRegisterLnkSignInPageValidationTest" finished-at="2023-05-04T17:06:32 PDT" duration-ms="5498" status="PASS">
+        <test-method signature="VerifyUserLandedStackPage(java.lang.String,java.lang.String)[pri:1, instance:com.dsalgo.qa.testcase.StackPageTest@292158f8]" started-at="2023-06-11T16:53:30 PDT" name="VerifyUserLandedStackPage" description="Stack page verification" data-provider="getLoginData" finished-at="2023-06-11T16:53:46 PDT" duration-ms="16233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgoproject81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickRegisterLnkSignInPageValidationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:06:32 PDT" name="tearDown" finished-at="2023-05-04T17:06:36 PDT" duration-ms="4346" status="PASS">
+        </test-method> <!-- VerifyUserLandedStackPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.dsalgo.qa.testcase.StackPageTest@292158f8]" started-at="2023-06-11T16:53:46 PDT" name="teardown" finished-at="2023-06-11T16:53:47 PDT" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.dsalgo.qa.testcase.StackPageTest -->
+      <class name="com.dsalgo.qa.testcase.ArrayPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dsalgo.qa.testcase.ArrayPageTest@2e8a1ab4]" started-at="2023-06-11T16:47:44 PDT" name="setUp" finished-at="2023-06-11T16:48:10 PDT" duration-ms="26198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ArrayPageValidationTest(java.lang.String,java.lang.String)[pri:0, instance:com.dsalgo.qa.testcase.ArrayPageTest@2e8a1ab4]" started-at="2023-06-11T16:48:10 PDT" name="ArrayPageValidationTest" data-provider="getLoginData" finished-at="2023-06-11T16:48:42 PDT" duration-ms="32683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgoproject81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArrayPageValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.ArrayPageTest@2e8a1ab4]" started-at="2023-06-11T16:48:42 PDT" name="tearDown" finished-at="2023-06-11T16:48:45 PDT" duration-ms="2045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:06:51 PDT" name="setup" finished-at="2023-05-04T17:07:20 PDT" duration-ms="29106" status="PASS">
+      </class> <!-- com.dsalgo.qa.testcase.ArrayPageTest -->
+      <class name="com.dsalgo.qa.testcase.LinkedListPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.LinkedListPageTest@582a764a]" started-at="2023-06-11T16:52:18 PDT" name="setup" finished-at="2023-06-11T16:52:29 PDT" duration-ms="10803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ClickSignoutLnkValidationTest(java.lang.String,java.lang.String)[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:07:20 PDT" name="ClickSignoutLnkValidationTest" data-provider="getLoginData" finished-at="2023-05-04T17:07:25 PDT" duration-ms="5130" status="PASS">
+        <test-method signature="VerifyUserLandedLinkedListPage(java.lang.String,java.lang.String)[pri:1, instance:com.dsalgo.qa.testcase.LinkedListPageTest@582a764a]" started-at="2023-06-11T16:52:29 PDT" name="VerifyUserLandedLinkedListPage" description="Linked list page verification" data-provider="getLoginData" finished-at="2023-06-11T16:52:44 PDT" duration-ms="15188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgoproject81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLandedLinkedListPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.dsalgo.qa.testcase.LinkedListPageTest@582a764a]" started-at="2023-06-11T16:52:44 PDT" name="teardown" finished-at="2023-06-11T16:52:45 PDT" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.dsalgo.qa.testcase.LinkedListPageTest -->
+      <class name="com.dsalgo.qa.testcase.SignInPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:45:38 PDT" name="setup" finished-at="2023-06-11T16:45:55 PDT" duration-ms="17287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickRegisterLnkSignInPageValidationTest()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:45:55 PDT" name="ClickRegisterLnkSignInPageValidationTest" finished-at="2023-06-11T16:45:57 PDT" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRegisterLnkSignInPageValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:45:57 PDT" name="tearDown" finished-at="2023-06-11T16:45:59 PDT" duration-ms="1953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:46:11 PDT" name="setup" finished-at="2023-06-11T16:46:25 PDT" duration-ms="13896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickSignoutLnkValidationTest(java.lang.String,java.lang.String)[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:46:25 PDT" name="ClickSignoutLnkValidationTest" data-provider="getLoginData" finished-at="2023-06-11T16:46:31 PDT" duration-ms="5863" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,15 +117,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickSignoutLnkValidationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:07:25 PDT" name="tearDown" finished-at="2023-05-04T17:07:27 PDT" duration-ms="1984" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:46:31 PDT" name="tearDown" finished-at="2023-06-11T16:46:32 PDT" duration-ms="1845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:07:28 PDT" name="setup" finished-at="2023-05-04T17:07:45 PDT" duration-ms="16919" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:46:33 PDT" name="setup" finished-at="2023-06-11T16:46:57 PDT" duration-ms="23879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginUserwithValidCredentialsValidationTest(java.lang.String,java.lang.String)[pri:1, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:07:45 PDT" name="LoginUserwithValidCredentialsValidationTest" description="Verifying user is able to login with valid credentials" data-provider="getLoginData" finished-at="2023-05-04T17:07:48 PDT" duration-ms="3465" status="PASS">
+        <test-method signature="LoginUserwithValidCredentialsValidationTest(java.lang.String,java.lang.String)[pri:1, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:46:57 PDT" name="LoginUserwithValidCredentialsValidationTest" description="Verifying user is able to login with valid credentials" data-provider="getLoginData" finished-at="2023-06-11T16:47:00 PDT" duration-ms="3512" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,15 +141,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginUserwithValidCredentialsValidationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:07:48 PDT" name="tearDown" finished-at="2023-05-04T17:07:50 PDT" duration-ms="2188" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:47:00 PDT" name="tearDown" finished-at="2023-06-11T16:47:02 PDT" duration-ms="1512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:07:50 PDT" name="setup" finished-at="2023-05-04T17:08:07 PDT" duration-ms="16505" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:47:02 PDT" name="setup" finished-at="2023-06-11T16:47:21 PDT" duration-ms="19696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyUserLogin()[pri:1, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:08:07 PDT" name="VerifyUserLogin" description="Verifying SignIn Page Link test" finished-at="2023-05-04T17:08:07 PDT" duration-ms="292" status="FAIL">
+        <test-method signature="VerifyUserLogin()[pri:1, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:47:21 PDT" name="VerifyUserLogin" description="Verifying SignIn Page Link test" finished-at="2023-06-11T16:47:22 PDT" duration-ms="87" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://dsportalapp.herokuapp.com/logins] but found [https://dsportalapp.herokuapp.com/login]]]>
@@ -117,15 +195,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyUserLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:08:08 PDT" name="tearDown" finished-at="2023-05-04T17:08:09 PDT" duration-ms="1512" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:47:22 PDT" name="tearDown" finished-at="2023-06-11T16:47:24 PDT" duration-ms="2049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:08:10 PDT" name="setup" finished-at="2023-05-04T17:08:28 PDT" duration-ms="18019" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:47:25 PDT" name="setup" finished-at="2023-06-11T16:47:37 PDT" duration-ms="12686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginUserWithInvalidCredentialsValidationTest(java.lang.String,java.lang.String)[pri:2, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:08:28 PDT" name="LoginUserWithInvalidCredentialsValidationTest" description="Verifying User fails to login on entering invalid username,password and clicking on Login button" data-provider="getLoginData" finished-at="2023-05-04T17:08:31 PDT" duration-ms="3239" status="PASS">
+        <test-method signature="LoginUserWithInvalidCredentialsValidationTest(java.lang.String,java.lang.String)[pri:2, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:47:37 PDT" name="LoginUserWithInvalidCredentialsValidationTest" description="Verifying User fails to login on entering invalid username,password and clicking on Login button" data-provider="getLoginData" finished-at="2023-06-11T16:47:40 PDT" duration-ms="2779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,11 +219,385 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginUserWithInvalidCredentialsValidationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@62a4417]" started-at="2023-05-04T17:08:31 PDT" name="tearDown" finished-at="2023-05-04T17:08:33 PDT" duration-ms="1463" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.SignInPageTest@78e22d35]" started-at="2023-06-11T16:47:40 PDT" name="tearDown" finished-at="2023-06-11T16:47:43 PDT" duration-ms="2911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dsalgo.qa.testcase.SignInPageTest -->
+      <class name="com.dsalgo.qa.testcase.GraphPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dsalgo.qa.testcase.GraphPageTest@1deceb67]" started-at="2023-06-11T16:51:51 PDT" name="setUp" finished-at="2023-06-11T16:52:02 PDT" duration-ms="11181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GraphPageValidationTest(java.lang.String,java.lang.String)[pri:0, instance:com.dsalgo.qa.testcase.GraphPageTest@1deceb67]" started-at="2023-06-11T16:52:02 PDT" name="GraphPageValidationTest" data-provider="getLoginData" finished-at="2023-06-11T16:52:17 PDT" duration-ms="14788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgoproject81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GraphPageValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.GraphPageTest@1deceb67]" started-at="2023-06-11T16:52:17 PDT" name="tearDown" finished-at="2023-06-11T16:52:18 PDT" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.qa.testcase.GraphPageTest -->
+      <class name="com.dsalgo.qa.testcase.GetStartedTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dsalgo.qa.testcase.GetStartedTest@73c9e8e8]" started-at="2023-06-11T16:51:04 PDT" name="setUp" finished-at="2023-06-11T16:51:13 PDT" duration-ms="9433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getStartedButtonClickTest()[pri:1, instance:com.dsalgo.qa.testcase.GetStartedTest@73c9e8e8]" started-at="2023-06-11T16:51:13 PDT" name="getStartedButtonClickTest" description="Clicking on Get Started button" finished-at="2023-06-11T16:51:15 PDT" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedButtonClickTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.GetStartedTest@73c9e8e8]" started-at="2023-06-11T16:51:15 PDT" name="tearDown" finished-at="2023-06-11T16:51:16 PDT" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dsalgo.qa.testcase.GetStartedTest@73c9e8e8]" started-at="2023-06-11T16:51:16 PDT" name="setUp" finished-at="2023-06-11T16:51:22 PDT" duration-ms="6633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateUserLandingHomePageTest()[pri:2, instance:com.dsalgo.qa.testcase.GetStartedTest@73c9e8e8]" started-at="2023-06-11T16:51:22 PDT" name="validateUserLandingHomePageTest" description="Verify user landed on Home Page after clicking Get Started button" finished-at="2023-06-11T16:51:23 PDT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserLandingHomePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.GetStartedTest@73c9e8e8]" started-at="2023-06-11T16:51:23 PDT" name="tearDown" finished-at="2023-06-11T16:51:24 PDT" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.qa.testcase.GetStartedTest -->
+      <class name="com.dsalgo.qa.testcase.DataStructurePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dsalgo.qa.testcase.DataStructurePageTest@1aabf50d]" started-at="2023-06-11T16:50:37 PDT" name="setUp" finished-at="2023-06-11T16:50:52 PDT" duration-ms="14704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DataStructureValidationTest(java.lang.String,java.lang.String)[pri:0, instance:com.dsalgo.qa.testcase.DataStructurePageTest@1aabf50d]" started-at="2023-06-11T16:50:52 PDT" name="DataStructureValidationTest" data-provider="getLoginData" finished-at="2023-06-11T16:51:02 PDT" duration-ms="10137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgoproject81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataStructureValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.DataStructurePageTest@1aabf50d]" started-at="2023-06-11T16:51:02 PDT" name="tearDown" finished-at="2023-06-11T16:51:04 PDT" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.qa.testcase.DataStructurePageTest -->
+      <class name="com.dsalgo.qa.testcase.TreePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dsalgo.qa.testcase.TreePageTest@de8039f]" started-at="2023-06-11T16:51:24 PDT" name="setUp" finished-at="2023-06-11T16:51:34 PDT" duration-ms="10319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TreePageValidationTest(java.lang.String,java.lang.String)[pri:0, instance:com.dsalgo.qa.testcase.TreePageTest@de8039f]" started-at="2023-06-11T16:51:34 PDT" name="TreePageValidationTest" data-provider="getLoginData" finished-at="2023-06-11T16:51:50 PDT" duration-ms="15587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgoproject81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TreePageValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.TreePageTest@de8039f]" started-at="2023-06-11T16:51:50 PDT" name="tearDown" finished-at="2023-06-11T16:51:51 PDT" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.qa.testcase.TreePageTest -->
+      <class name="com.dsalgo.qa.testcase.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:42:08 PDT" name="setup" finished-at="2023-06-11T16:43:26 PDT" duration-ms="78066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserLandedHomePageTest()[pri:1, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:43:27 PDT" name="VerifyUserLandedHomePageTest" description="Verifying user landed on home page after clicking on Get Started button" finished-at="2023-06-11T16:43:31 PDT" duration-ms="3424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLandedHomePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:43:31 PDT" name="tearDown" finished-at="2023-06-11T16:43:32 PDT" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:43:32 PDT" name="setup" finished-at="2023-06-11T16:43:52 PDT" duration-ms="19813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateUserLandedLoginPageClickingLoginBtn()[pri:2, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:43:52 PDT" name="ValidateUserLandedLoginPageClickingLoginBtn" description="Clicking on Login link on Home Page" finished-at="2023-06-11T16:43:56 PDT" duration-ms="3942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserLandedLoginPageClickingLoginBtn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:43:56 PDT" name="tearDown" finished-at="2023-06-11T16:44:00 PDT" duration-ms="3743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:44:00 PDT" name="setup" finished-at="2023-06-11T16:44:30 PDT" duration-ms="29800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateUserLandedRegisterPageClickingRegisterBtn()[pri:3, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:44:30 PDT" name="ValidateUserLandedRegisterPageClickingRegisterBtn" description="Clicking on Register Link on Home Page" finished-at="2023-06-11T16:44:33 PDT" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserLandedRegisterPageClickingRegisterBtn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:44:33 PDT" name="tearDown" finished-at="2023-06-11T16:44:34 PDT" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:44:34 PDT" name="setup" finished-at="2023-06-11T16:45:05 PDT" duration-ms="30944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UserClicksGetStartedBtnWithoutLoginGetErrorMsg()[pri:4, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:45:06 PDT" name="UserClicksGetStartedBtnWithoutLoginGetErrorMsg" description="Verify user got Error message on clicking GetStarted button under any Data Structure without Login" finished-at="2023-06-11T16:45:08 PDT" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserClicksGetStartedBtnWithoutLoginGetErrorMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:45:08 PDT" name="tearDown" finished-at="2023-06-11T16:45:10 PDT" duration-ms="1990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:45:10 PDT" name="setup" finished-at="2023-06-11T16:45:25 PDT" duration-ms="14850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg()[pri:5, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:45:25 PDT" name="UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg" description="Verify user got Error message on clicking GetStarted button after selecting value from dropdown without Login " finished-at="2023-06-11T16:45:35 PDT" duration-ms="10540" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97acbca79c87fa3e6c4b977598580ddf, clickElement {id=45E192B2A6EDEE426D684A8399E27ED4_element_7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\venka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56187}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56187/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (97acbca79c87fa3e6c4b977598580ddf)] -> xpath: //a[@class='dropdown-item' and @href='/array']]
+Session ID: 97acbca79c87fa3e6c4b977598580ddf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97acbca79c87fa3e6c4b977598580ddf, clickElement {id=45E192B2A6EDEE426D684A8399E27ED4_element_7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\venka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56187}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56187/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (97acbca79c87fa3e6c4b977598580ddf)] -> xpath: //a[@class='dropdown-item' and @href='/array']]
+Session ID: 97acbca79c87fa3e6c4b977598580ddf
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy35.click(Unknown Source)
+at com.dsalgo.qa.pages.HomePage.selectValueFromdropdown(HomePage.java:162)
+at com.dsalgo.qa.testcase.HomePageTest.UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg(HomePageTest.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserSelectValueFromDropdownClickGetStartedWithoutLoginGetErrorMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.HomePageTest@31a3f4de]" started-at="2023-06-11T16:45:37 PDT" name="tearDown" finished-at="2023-06-11T16:45:38 PDT" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.qa.testcase.HomePageTest -->
+      <class name="com.dsalgo.qa.testcase.QueuePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.QueuePageTest@64984b0f]" started-at="2023-06-11T16:52:46 PDT" name="setup" finished-at="2023-06-11T16:52:56 PDT" duration-ms="10612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserLandedPage(java.lang.String,java.lang.String)[pri:1, instance:com.dsalgo.qa.testcase.QueuePageTest@64984b0f]" started-at="2023-06-11T16:52:56 PDT" name="VerifyUserLandedPage" description="Queue page verification" data-provider="getLoginData" finished-at="2023-06-11T16:53:12 PDT" duration-ms="15642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgoproject81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLandedPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.dsalgo.qa.testcase.QueuePageTest@64984b0f]" started-at="2023-06-11T16:53:12 PDT" name="teardown" finished-at="2023-06-11T16:53:13 PDT" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.dsalgo.qa.testcase.QueuePageTest -->
+      <class name="com.dsalgo.qa.testcase.RegisterPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:48:45 PDT" name="setup" finished-at="2023-06-11T16:49:10 PDT" duration-ms="25104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickRegisterBtnWithDifferentPasswordsTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:49:10 PDT" name="ClickRegisterBtnWithDifferentPasswordsTest" data-provider="getLoginData" finished-at="2023-06-11T16:49:13 PDT" duration-ms="3358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgoproject81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRegisterBtnWithDifferentPasswordsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:49:13 PDT" name="tearDown" finished-at="2023-06-11T16:49:15 PDT" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:49:15 PDT" name="setup" finished-at="2023-06-11T16:49:31 PDT" duration-ms="15436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickRegisterBtnWithEmptyFieldsTest()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:49:31 PDT" name="ClickRegisterBtnWithEmptyFieldsTest" finished-at="2023-06-11T16:49:32 PDT" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRegisterBtnWithEmptyFieldsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:49:32 PDT" name="tearDown" finished-at="2023-06-11T16:49:35 PDT" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:49:35 PDT" name="setup" finished-at="2023-06-11T16:49:53 PDT" duration-ms="17954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterErrorEmptyfieldBelowPasswordTxtbox(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:49:53 PDT" name="RegisterErrorEmptyfieldBelowPasswordTxtbox" data-provider="getLoginData" finished-at="2023-06-11T16:49:54 PDT" duration-ms="1393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgoproject81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterErrorEmptyfieldBelowPasswordTxtbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:49:55 PDT" name="tearDown" finished-at="2023-06-11T16:49:57 PDT" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:49:57 PDT" name="setup" finished-at="2023-06-11T16:50:14 PDT" duration-ms="17050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterNewUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:50:14 PDT" name="RegisterNewUserTest" data-provider="getLoginData" finished-at="2023-06-11T16:50:21 PDT" duration-ms="6210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgoproject81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterNewUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:50:21 PDT" name="tearDown" finished-at="2023-06-11T16:50:22 PDT" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:50:22 PDT" name="setup" finished-at="2023-06-11T16:50:36 PDT" duration-ms="14169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserLandedRegisterPageTest()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:50:36 PDT" name="VerifyUserLandedRegisterPageTest" finished-at="2023-06-11T16:50:36 PDT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLandedRegisterPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcase.RegisterPageTest@59f93db8]" started-at="2023-06-11T16:50:36 PDT" name="tearDown" finished-at="2023-06-11T16:50:37 PDT" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.qa.testcase.RegisterPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

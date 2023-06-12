@@ -1338,3 +1338,227 @@
 [INFO ] 2023-05-08 19:04:03.732 [main] Loggerload - Clicking on Register Link on Home Page
 [INFO ] 2023-05-08 19:04:05.408 [main] Loggerload - Title of current page is : Registration
 [INFO ] 2023-05-08 19:04:16.845 [main] Loggerload - User got Error message on clicking GetStarted button under any Data Structure without Login
+[INFO ] 2023-05-16 12:12:21.194 [main] Loggerload - Verifying user landed on home page after clicking on Get Started button
+[INFO ] 2023-05-16 12:12:40.629 [main] Loggerload - Clicking on Login link on Home Page
+[INFO ] 2023-05-16 12:12:42.194 [main] Loggerload - URL of current page is : https://dsportalapp.herokuapp.com/login
+[INFO ] 2023-05-16 12:13:00.047 [main] Loggerload - Clicking on Register Link on Home Page
+[INFO ] 2023-05-16 12:13:01.164 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-05-16 12:13:16.302 [main] Loggerload - User got Error message on clicking GetStarted button under any Data Structure without Login
+[INFO ] 2023-06-11 14:31:26.893 [main] Loggerload - Verifying user landed on home page after clicking on Get Started button
+[INFO ] 2023-06-11 14:31:44.042 [main] Loggerload - Clicking on Login link on Home Page
+[INFO ] 2023-06-11 14:31:45.205 [main] Loggerload - URL of current page is : https://dsportalapp.herokuapp.com/login
+[INFO ] 2023-06-11 14:31:56.032 [main] Loggerload - Clicking on Register Link on Home Page
+[INFO ] 2023-06-11 14:31:57.210 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-11 14:32:09.591 [main] Loggerload - User got Error message on clicking GetStarted button under any Data Structure without Login
+[INFO ] 2023-06-11 15:28:28.548 [main] Loggerload - Verifying user landed on home page after clicking on Get Started button
+[INFO ] 2023-06-11 15:28:47.643 [main] Loggerload - Clicking on Login link on Home Page
+[INFO ] 2023-06-11 15:28:50.513 [main] Loggerload - URL of current page is : https://dsportalapp.herokuapp.com/login
+[INFO ] 2023-06-11 15:29:02.701 [main] Loggerload - Clicking on Register Link on Home Page
+[INFO ] 2023-06-11 15:29:04.394 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-11 15:29:17.453 [main] Loggerload - User got Error message on clicking GetStarted button under any Data Structure without Login
+[INFO ] 2023-06-11 15:37:12.169 [main] Loggerload - Verifying user landed on home page after clicking on Get Started button
+[INFO ] 2023-06-11 15:37:23.714 [main] Loggerload - Clicking on Login link on Home Page
+[INFO ] 2023-06-11 15:37:24.706 [main] Loggerload - URL of current page is : https://dsportalapp.herokuapp.com/login
+[INFO ] 2023-06-11 15:37:35.675 [main] Loggerload - Clicking on Register Link on Home Page
+[INFO ] 2023-06-11 15:37:37.374 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-11 15:37:49.924 [main] Loggerload - User got Error message on clicking GetStarted button under any Data Structure without Login
+[INFO ] 2023-06-11 15:43:16.038 [main] Loggerload - Verifying user landed on home page after clicking on Get Started button
+[INFO ] 2023-06-11 15:43:26.295 [main] Loggerload - Clicking on Login link on Home Page
+[INFO ] 2023-06-11 15:43:27.216 [main] Loggerload - URL of current page is : https://dsportalapp.herokuapp.com/login
+[INFO ] 2023-06-11 15:43:36.601 [main] Loggerload - Clicking on Register Link on Home Page
+[INFO ] 2023-06-11 15:43:37.563 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-11 15:43:49.587 [main] Loggerload - User got Error message on clicking GetStarted button under any Data Structure without Login
+[INFO ] 2023-06-11 15:44:22.047 [main] Loggerload - User is clicking on Register link on SignIn Page and validating title of the page
+[INFO ] 2023-06-11 15:44:23.240 [main] Loggerload - Title of the Page is : Registration
+[INFO ] 2023-06-11 15:44:42.630 [main] Loggerload - User enters valid username :dsalgoproject81, password :Project321@ and clicks on Login button
+[INFO ] 2023-06-11 15:44:45.278 [main] Loggerload - User is clicking on Signout button
+[INFO ] 2023-06-11 15:44:46.048 [main] Loggerload - User gets logout success message :Logged out successfully
+[INFO ] 2023-06-11 15:45:00.465 [main] Loggerload - User enters valid username :dsalgoproject81, password :Project321@ and clicks on Login button
+[INFO ] 2023-06-11 15:45:00.580 [main] Loggerload - User gets the message after sucessful Login : You are logged in
+[INFO ] 2023-06-11 15:45:23.036 [main] Loggerload - User enters invalid username,password and clicks on Login button
+[INFO ] 2023-06-11 15:45:24.759 [main] Loggerload - User gets alert Message : Invalid Username and Password
+[INFO ] 2023-06-11 15:45:36.554 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 15:45:38.346 [main] Loggerload - User is selecting Array option from dropdown
+[INFO ] 2023-06-11 15:45:39.946 [main] Loggerload - User landed on Array page after selecting array option from dropdown
+[INFO ] 2023-06-11 15:45:40.991 [main] Loggerload - User landed on Arrays in Python page after clicking on Arrays in Python Link
+[INFO ] 2023-06-11 15:45:45.732 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:45:47.718 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 15:45:49.213 [main] Loggerload - User landed on Arrays Using List page after clicking on Arrays Using List Link
+[INFO ] 2023-06-11 15:45:51.609 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:45:53.200 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 15:46:04.188 [main] Loggerload - Entered Username in username textbox : dsalgoproject81
+[INFO ] 2023-06-11 15:46:04.648 [main] Loggerload - Entered Password in password text box : Project321@
+[INFO ] 2023-06-11 15:46:05.153 [main] Loggerload - Entered confirm password in confirm password textbox : Project321@550
+[INFO ] 2023-06-11 15:46:05.154 [main] Loggerload - Clicking on Register button
+[INFO ] 2023-06-11 15:46:05.938 [main] Loggerload - Error Message displayed on entering different password in confirmation field: password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-06-11 15:46:15.957 [main] Loggerload - Clicking on Register button with all field empty
+[INFO ] 2023-06-11 15:46:16.554 [main] Loggerload - Error message is displayed under Username text box: Please fill out this field.
+[INFO ] 2023-06-11 15:46:28.807 [main] Loggerload - Entered Username in username textbox : dsalgoproject81
+[INFO ] 2023-06-11 15:46:28.807 [main] Loggerload - Clicking on Register button
+[INFO ] 2023-06-11 15:46:29.479 [main] Loggerload - Error message displayed under Password text box is: Please fill out this field.
+[INFO ] 2023-06-11 15:46:41.074 [main] Loggerload - Entered Username in username textbox : dsalgoproject81
+[INFO ] 2023-06-11 15:46:41.698 [main] Loggerload - Entered Password in password text box : Project321@
+[INFO ] 2023-06-11 15:46:42.442 [main] Loggerload - Entered confirm password in confirm password textbox : Project321@
+[INFO ] 2023-06-11 15:46:42.442 [main] Loggerload - Clicking on Register button
+[INFO ] 2023-06-11 15:46:43.639 [main] Loggerload - Register Success message :New Account Created. You are logged in as 89dsalgoproject81
+[INFO ] 2023-06-11 15:46:55.213 [main] Loggerload - Executing test to validate if user landed on Register Page.
+[INFO ] 2023-06-11 15:46:55.270 [main] Loggerload - Title of the page is : Registration
+[INFO ] 2023-06-11 15:47:04.452 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 15:47:06.525 [main] Loggerload - User is clicking on Get Started button under Data Structure
+[INFO ] 2023-06-11 15:47:07.298 [main] Loggerload - User is clicking on Time Complexity
+[INFO ] 2023-06-11 15:47:08.113 [main] Loggerload - The title of the page is :Time Complexity
+[INFO ] 2023-06-11 15:47:10.031 [main] Loggerload - Title of the page is :Assessment
+[INFO ] 2023-06-11 15:47:11.488 [main] Loggerload - Validating Python Code got printed sucessfully
+[INFO ] 2023-06-11 15:47:11.714 [main] Loggerload - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:47:13.675 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 15:47:22.490 [main] Loggerload - User is clicking on GetStarted button on Main Page
+[INFO ] 2023-06-11 15:47:36.441 [main] Loggerload - Title of current page is : Numpy Ninja ****
+[INFO ] 2023-06-11 15:47:49.748 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 15:47:52.278 [main] Loggerload - User is selecting Tree option from the dropdown
+[INFO ] 2023-06-11 15:47:53.490 [main] Loggerload - User is clicking on overview of Trees
+[INFO ] 2023-06-11 15:47:58.223 [main] Loggerload - Validating Python Code got printed sucessfully
+[INFO ] 2023-06-11 15:48:00.728 [main] Loggerload - User is clicking on Terminologies Link
+[INFO ] 2023-06-11 15:48:07.695 [main] Loggerload - Validating Python Code got printed sucessfully
+[INFO ] 2023-06-11 15:48:31.434 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 15:48:44.354 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:48:53.860 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:49:13.787 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 15:49:15.638 [main] Loggerload - User is clicking on get started button under linked list
+[INFO ] 2023-06-11 15:49:16.745 [main] Loggerload - Validating user landed on LinkedList Page.
+[INFO ] 2023-06-11 15:49:18.047 [main] Loggerload - Validating user landed on Intoduction Page on Linked ListPage.
+[INFO ] 2023-06-11 15:49:20.398 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on LinkedListPage.
+[INFO ] 2023-06-11 15:49:22.252 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:49:23.869 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 15:49:25.180 [main] Loggerload - Validating user landed on Intoduction Page on LinkedListPage.
+[INFO ] 2023-06-11 15:49:26.297 [main] Loggerload - Validating user landed on Try here Page on LinkedListPage.
+[INFO ] 2023-06-11 15:49:27.966 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:49:29.379 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 15:49:42.005 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 15:49:44.231 [main] Loggerload - User is clicking on Get Started button under Queue
+[INFO ] 2023-06-11 15:49:44.964 [main] Loggerload - Validating user landed on Queue Page.
+[INFO ] 2023-06-11 15:49:46.033 [main] Loggerload - Validating user landed on Implementation of Queue in Python
+[INFO ] 2023-06-11 15:49:48.104 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on QueuePage.
+[INFO ] 2023-06-11 15:49:49.475 [main] Loggerload - Validating Python Code got printed sucessfully
+[INFO ] 2023-06-11 15:49:49.645 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:49:50.912 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 15:49:51.155 [main] Loggerload - User is clicking on Implementation using collections.deque
+[INFO ] 2023-06-11 15:49:51.865 [main] Loggerload - Validating user landed on Implementation using collections.deque
+[INFO ] 2023-06-11 15:49:53.205 [main] Loggerload - Validating user landed on Tryhere Page on StackPage.
+[INFO ] 2023-06-11 15:49:54.350 [main] Loggerload - Validating Python Code got printed sucessfully
+[INFO ] 2023-06-11 15:49:54.480 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:49:55.672 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 15:50:07.166 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 15:50:08.930 [main] Loggerload - User is clicking on Get Started button under Stack
+[INFO ] 2023-06-11 15:50:09.730 [main] Loggerload - Validating if user landed on Stack Page.
+[INFO ] 2023-06-11 15:50:10.761 [main] Loggerload - Validating if user landed on operations in Stack Page.
+[INFO ] 2023-06-11 15:50:12.759 [main] Loggerload - Validating if user landed on Tryhere Page on StackPage.
+[INFO ] 2023-06-11 15:50:14.047 [main] Loggerload -  Validating if python code got printed sucessfully
+[INFO ] 2023-06-11 15:50:14.237 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:50:14.558 [main] Loggerload - Entering invalid python code 
+[INFO ] 2023-06-11 15:50:16.286 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 15:50:17.405 [main] Loggerload - Validating user landed on Implementations Page on Stack Page
+[INFO ] 2023-06-11 15:50:18.615 [main] Loggerload - Validating user landed on Tryhere Page on StackPage.
+[INFO ] 2023-06-11 15:50:19.766 [main] Loggerload - Validating if python code got printed sucessfully
+[INFO ] 2023-06-11 15:50:19.925 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 15:50:20.206 [main] Loggerload - Entering invalid python code 
+[INFO ] 2023-06-11 15:50:21.365 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 16:43:29.869 [main] Loggerload - Verifying user landed on home page after clicking on Get Started button
+[INFO ] 2023-06-11 16:43:52.517 [main] Loggerload - Clicking on Login link on Home Page
+[INFO ] 2023-06-11 16:43:56.443 [main] Loggerload - URL of current page is : https://dsportalapp.herokuapp.com/login
+[INFO ] 2023-06-11 16:44:30.110 [main] Loggerload - Clicking on Register Link on Home Page
+[INFO ] 2023-06-11 16:44:33.188 [main] Loggerload - Title of current page is : Registration
+[INFO ] 2023-06-11 16:45:08.430 [main] Loggerload - User got Error message on clicking GetStarted button under any Data Structure without Login
+[INFO ] 2023-06-11 16:45:55.940 [main] Loggerload - User is clicking on Register link on SignIn Page and validating title of the page
+[INFO ] 2023-06-11 16:45:57.297 [main] Loggerload - Title of the Page is : Registration
+[INFO ] 2023-06-11 16:46:25.218 [main] Loggerload - User enters valid username :dsalgoproject81, password :Project321@ and clicks on Login button
+[INFO ] 2023-06-11 16:46:29.054 [main] Loggerload - User is clicking on Signout button
+[INFO ] 2023-06-11 16:46:31.054 [main] Loggerload - User gets logout success message :Logged out successfully
+[INFO ] 2023-06-11 16:47:00.632 [main] Loggerload - User enters valid username :dsalgoproject81, password :Project321@ and clicks on Login button
+[INFO ] 2023-06-11 16:47:00.757 [main] Loggerload - User gets the message after sucessful Login : You are logged in
+[INFO ] 2023-06-11 16:47:37.833 [main] Loggerload - User enters invalid username,password and clicks on Login button
+[INFO ] 2023-06-11 16:47:40.552 [main] Loggerload - User gets alert Message : Invalid Username and Password
+[INFO ] 2023-06-11 16:48:10.290 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 16:48:13.919 [main] Loggerload - User is selecting Array option from dropdown
+[INFO ] 2023-06-11 16:48:16.220 [main] Loggerload - User landed on Array page after selecting array option from dropdown
+[INFO ] 2023-06-11 16:48:17.617 [main] Loggerload - User landed on Arrays in Python page after clicking on Arrays in Python Link
+[INFO ] 2023-06-11 16:48:25.786 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:48:31.291 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 16:48:35.847 [main] Loggerload - User landed on Arrays Using List page after clicking on Arrays Using List Link
+[INFO ] 2023-06-11 16:48:41.084 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:48:42.954 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 16:49:11.606 [main] Loggerload - Entered Username in username textbox : dsalgoproject81
+[INFO ] 2023-06-11 16:49:12.195 [main] Loggerload - Entered Password in password text box : Project321@
+[INFO ] 2023-06-11 16:49:12.825 [main] Loggerload - Entered confirm password in confirm password textbox : Project321@985
+[INFO ] 2023-06-11 16:49:12.825 [main] Loggerload - Clicking on Register button
+[INFO ] 2023-06-11 16:49:13.827 [main] Loggerload - Error Message displayed on entering different password in confirmation field: password_mismatch:The two password fields didn’t match.
+[INFO ] 2023-06-11 16:49:31.181 [main] Loggerload - Clicking on Register button with all field empty
+[INFO ] 2023-06-11 16:49:32.054 [main] Loggerload - Error message is displayed under Username text box: Please fill out this field.
+[INFO ] 2023-06-11 16:49:54.395 [main] Loggerload - Entered Username in username textbox : dsalgoproject81
+[INFO ] 2023-06-11 16:49:54.396 [main] Loggerload - Clicking on Register button
+[INFO ] 2023-06-11 16:49:54.928 [main] Loggerload - Error message displayed under Password text box is: Please fill out this field.
+[INFO ] 2023-06-11 16:50:15.975 [main] Loggerload - Entered Username in username textbox : dsalgoproject81
+[INFO ] 2023-06-11 16:50:16.800 [main] Loggerload - Entered Password in password text box : Project321@
+[INFO ] 2023-06-11 16:50:18.803 [main] Loggerload - Entered confirm password in confirm password textbox : Project321@
+[INFO ] 2023-06-11 16:50:18.803 [main] Loggerload - Clicking on Register button
+[INFO ] 2023-06-11 16:50:21.009 [main] Loggerload - Register Success message :New Account Created. You are logged in as 270dsalgoproject81
+[INFO ] 2023-06-11 16:50:36.239 [main] Loggerload - Executing test to validate if user landed on Register Page.
+[INFO ] 2023-06-11 16:50:36.294 [main] Loggerload - Title of the page is : Registration
+[INFO ] 2023-06-11 16:50:52.508 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 16:50:54.585 [main] Loggerload - User is clicking on Get Started button under Data Structure
+[INFO ] 2023-06-11 16:50:55.572 [main] Loggerload - User is clicking on Time Complexity
+[INFO ] 2023-06-11 16:50:56.473 [main] Loggerload - The title of the page is :Time Complexity
+[INFO ] 2023-06-11 16:50:58.771 [main] Loggerload - Title of the page is :Assessment
+[INFO ] 2023-06-11 16:51:00.705 [main] Loggerload - Validating Python Code got printed sucessfully
+[INFO ] 2023-06-11 16:51:01.000 [main] Loggerload - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:51:02.628 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 16:51:13.467 [main] Loggerload - User is clicking on GetStarted button on Main Page
+[INFO ] 2023-06-11 16:51:23.016 [main] Loggerload - Title of current page is : Numpy Ninja ****
+[INFO ] 2023-06-11 16:51:34.634 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 16:51:37.060 [main] Loggerload - User is selecting Tree option from the dropdown
+[INFO ] 2023-06-11 16:51:38.214 [main] Loggerload - User is clicking on overview of Trees
+[INFO ] 2023-06-11 16:51:43.172 [main] Loggerload - Validating Python Code got printed sucessfully
+[INFO ] 2023-06-11 16:51:45.283 [main] Loggerload - User is clicking on Terminologies Link
+[INFO ] 2023-06-11 16:51:48.720 [main] Loggerload - Validating Python Code got printed sucessfully
+[INFO ] 2023-06-11 16:52:02.681 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 16:52:10.395 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:52:16.007 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:52:29.577 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 16:52:31.460 [main] Loggerload - User is clicking on get started button under linked list
+[INFO ] 2023-06-11 16:52:32.262 [main] Loggerload - Validating user landed on LinkedList Page.
+[INFO ] 2023-06-11 16:52:33.298 [main] Loggerload - Validating user landed on Intoduction Page on Linked ListPage.
+[INFO ] 2023-06-11 16:52:35.620 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on LinkedListPage.
+[INFO ] 2023-06-11 16:52:37.235 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:52:39.125 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 16:52:40.632 [main] Loggerload - Validating user landed on Intoduction Page on LinkedListPage.
+[INFO ] 2023-06-11 16:52:42.043 [main] Loggerload - Validating user landed on Try here Page on LinkedListPage.
+[INFO ] 2023-06-11 16:52:43.396 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:52:44.751 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 16:52:56.762 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 16:52:58.993 [main] Loggerload - User is clicking on Get Started button under Queue
+[INFO ] 2023-06-11 16:52:59.818 [main] Loggerload - Validating user landed on Queue Page.
+[INFO ] 2023-06-11 16:53:01.122 [main] Loggerload - Validating user landed on Implementation of Queue in Python
+[INFO ] 2023-06-11 16:53:03.558 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on QueuePage.
+[INFO ] 2023-06-11 16:53:05.036 [main] Loggerload - Validating Python Code got printed sucessfully
+[INFO ] 2023-06-11 16:53:05.198 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:53:06.748 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 16:53:07.116 [main] Loggerload - User is clicking on Implementation using collections.deque
+[INFO ] 2023-06-11 16:53:07.853 [main] Loggerload - Validating user landed on Implementation using collections.deque
+[INFO ] 2023-06-11 16:53:09.525 [main] Loggerload - Validating user landed on Tryhere Page on StackPage.
+[INFO ] 2023-06-11 16:53:10.528 [main] Loggerload - Validating Python Code got printed sucessfully
+[INFO ] 2023-06-11 16:53:10.703 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:53:12.390 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 16:53:30.416 [main] Loggerload - User is entering username :dsalgoproject81 and password :Project321@
+[INFO ] 2023-06-11 16:53:32.622 [main] Loggerload - User is clicking on Get Started button under Stack
+[INFO ] 2023-06-11 16:53:33.733 [main] Loggerload - Validating if user landed on Stack Page.
+[INFO ] 2023-06-11 16:53:35.129 [main] Loggerload - Validating if user landed on operations in Stack Page.
+[INFO ] 2023-06-11 16:53:37.233 [main] Loggerload - Validating if user landed on Tryhere Page on StackPage.
+[INFO ] 2023-06-11 16:53:38.621 [main] Loggerload -  Validating if python code got printed sucessfully
+[INFO ] 2023-06-11 16:53:38.840 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:53:39.117 [main] Loggerload - Entering invalid python code 
+[INFO ] 2023-06-11 16:53:40.528 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
+[INFO ] 2023-06-11 16:53:42.042 [main] Loggerload - Validating user landed on Implementations Page on Stack Page
+[INFO ] 2023-06-11 16:53:43.320 [main] Loggerload - Validating user landed on Tryhere Page on StackPage.
+[INFO ] 2023-06-11 16:53:44.653 [main] Loggerload - Validating if python code got printed sucessfully
+[INFO ] 2023-06-11 16:53:44.886 [main] Loggerload - Python Code - Hello DSAlgo got printed sucessfully
+[INFO ] 2023-06-11 16:53:45.274 [main] Loggerload - Entering invalid python code 
+[INFO ] 2023-06-11 16:53:46.621 [main] Loggerload - SyntaxError: bad input on line 1 invalid python code entered by user
