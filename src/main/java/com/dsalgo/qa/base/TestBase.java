@@ -60,6 +60,8 @@ public static WebDriver initilization() {
 		/*ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
 		driver = new ChromeDriver(options);*/
+		driver = new ChromeDriver();
+
 		tdriver.set(driver);
 	}
 	
